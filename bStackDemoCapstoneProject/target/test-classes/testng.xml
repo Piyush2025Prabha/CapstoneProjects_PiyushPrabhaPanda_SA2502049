@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "My Suite">
+	<test name = "MyTest">
+		<classes>
+			<class name="Base.BaseTest"/>
+      		<class name="tests.LoginTest"/>
+      		<class name="tests.AddToCartTest"/>
+      		<class name="tests.CheckoutTest"/>     		
+		</classes>
+	</test>
+</suite>

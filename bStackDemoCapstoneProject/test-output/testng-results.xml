@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-26T17:10:05 IST" name="My Suite" finished-at="2025-07-26T17:10:26 IST" duration-ms="21428">
+    <groups>
+    </groups>
+    <test started-at="2025-07-26T17:10:05 IST" name="MyTest" finished-at="2025-07-26T17:10:26 IST" duration-ms="21428">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.LoginTest@4e08711f]" started-at="2025-07-26T17:10:05 IST" name="beforeTest" finished-at="2025-07-26T17:10:13 IST" duration-ms="8430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="testLoginWithNoCredentials()[pri:1, instance:tests.LoginTest@4e08711f]" started-at="2025-07-26T17:10:13 IST" name="testLoginWithNoCredentials" finished-at="2025-07-26T17:10:15 IST" duration-ms="1768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithNoCredentials -->
+        <test-method signature="testLoginWithInvalidCredentials()[pri:2, instance:tests.LoginTest@4e08711f]" started-at="2025-07-26T17:10:15 IST" name="testLoginWithInvalidCredentials" finished-at="2025-07-26T17:10:17 IST" duration-ms="1531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidCredentials -->
+        <test-method signature="testLoginWithValidCredentials()[pri:3, instance:tests.LoginTest@4e08711f]" started-at="2025-07-26T17:10:17 IST" name="testLoginWithValidCredentials" finished-at="2025-07-26T17:10:17 IST" duration-ms="649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithValidCredentials -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.LoginTest@4e08711f]" started-at="2025-07-26T17:10:26 IST" name="afterTest" finished-at="2025-07-26T17:10:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.AddToCartTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.AddToCartTest@bcec361]" started-at="2025-07-26T17:10:05 IST" name="beforeTest" finished-at="2025-07-26T17:10:05 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="addSingleItemToCart()[pri:4, instance:tests.AddToCartTest@bcec361]" started-at="2025-07-26T17:10:17 IST" name="addSingleItemToCart" finished-at="2025-07-26T17:10:19 IST" duration-ms="1923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSingleItemToCart -->
+        <test-method signature="addMultipleItemsToCart()[pri:5, instance:tests.AddToCartTest@bcec361]" started-at="2025-07-26T17:10:19 IST" name="addMultipleItemsToCart" finished-at="2025-07-26T17:10:21 IST" duration-ms="2193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMultipleItemsToCart -->
+        <test-method signature="removeItemsFromCart()[pri:6, instance:tests.AddToCartTest@bcec361]" started-at="2025-07-26T17:10:21 IST" name="removeItemsFromCart" finished-at="2025-07-26T17:10:23 IST" duration-ms="1275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeItemsFromCart -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.AddToCartTest@bcec361]" started-at="2025-07-26T17:10:26 IST" name="afterTest" finished-at="2025-07-26T17:10:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.AddToCartTest -->
+      <class name="Base.BaseTest">
+        <test-method is-config="true" signature="extentReport()[pri:0, instance:Base.BaseTest@179ece50]" started-at="2025-07-26T17:10:04 IST" name="extentReport" finished-at="2025-07-26T17:10:05 IST" duration-ms="535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReport -->
+        <test-method is-config="true" signature="flushExtent()[pri:0, instance:Base.BaseTest@179ece50]" started-at="2025-07-26T17:10:26 IST" name="flushExtent" finished-at="2025-07-26T17:10:27 IST" duration-ms="634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushExtent -->
+      </class> <!-- Base.BaseTest -->
+      <class name="tests.CheckoutTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.CheckoutTest@26794848]" started-at="2025-07-26T17:10:05 IST" name="beforeTest" finished-at="2025-07-26T17:10:05 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="checkOutWithNoItems()[pri:7, instance:tests.CheckoutTest@26794848]" started-at="2025-07-26T17:10:23 IST" name="checkOutWithNoItems" finished-at="2025-07-26T17:10:23 IST" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutWithNoItems -->
+        <test-method signature="properCheckOut()[pri:8, instance:tests.CheckoutTest@26794848]" started-at="2025-07-26T17:10:23 IST" name="properCheckOut" finished-at="2025-07-26T17:10:26 IST" duration-ms="2901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- properCheckOut -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.CheckoutTest@26794848]" started-at="2025-07-26T17:10:26 IST" name="afterTest" finished-at="2025-07-26T17:10:26 IST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.CheckoutTest -->
+    </test> <!-- MyTest -->
+  </suite> <!-- My Suite -->
+</testng-results>
