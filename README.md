@@ -1,1 +1,1 @@
-# OrangeHRM_CapstoneProjects_PiyushPrabhaPanda_SA2502049
+# OrangeHRM_CapstoneProject_PiyushPrabhaPanda_SA2502049
